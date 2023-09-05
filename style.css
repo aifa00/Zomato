@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.4)), url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+}
+
+nav{
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 140px;
+}
+nav button{
+    border: 0;
+    background: transparent;
+    color: white;
+    padding: 0px 15px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.logo img{
+    width: 330px;
+    height: 75px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text h1{
+    color: white;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 10px;
+    
+}
+.search{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 5px;
+
+}
+.search input{
+    background: transparent;
+    outline: 1px solid white;
+    width: 450px;
+    padding: 12px 10px;
+    overflow: hidden;
+    font-size: medium;
+    color: white;
+    border-radius: 12px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-evenly;
+    margin-top: 70px;
+    
+    
+   
+}
+.col img{
+    flex: 1;
+    width:380px;
+    height: 85%;
+    border-radius: 10px;
+    
+}
+.col p{
+    font-size: 18px;
+}
+.collection{
+    margin-top: 80px;
+}
+.Text{
+    margin-left:45px ;
+}
+.Text h1{
+    font-size: 35px;
+}
+.Text p{
+    font-size: 20px;
+}
+.photos{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+.photos img{
+    width:23%;
+    border-radius:7px ;
+}
+
+.getapp{
+    display: flex;
+    justify-content: space-evenly;
+}
+.getapp img{
+    width: 50%;
+}
+.getapp h1{
+    font-size:50px;
+    margin-top:20%;
+    margin-right: 10%;
+}
+.explore h1{
+    font-size: 30px;
+    margin-top: 55px;
+    text-align: center;
+}
+.explore button{
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    height:50px;
+    margin-top:10px;
+    margin-left: 13%;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(137, 137, 137);
+
+}
+
+.footer{
+    
+    margin-top: 40px;
+    background-color: rgb(225, 224, 222);
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 70px 0px;
+    
+}
+.row{
+    display: flex;
+}
+ul{
+    list-style: none;
+
+}
+.footercol{
+    width: 25%;
+    padding:0px 15px;
+}
+li{
+    margin-top: 10px;
+    
+}
+.footercol h4{
+    font-size: 14px;
+    margin-bottom: 20px;
+   
+    
+}
